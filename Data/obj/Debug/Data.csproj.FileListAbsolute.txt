@@ -1,0 +1,16 @@
+C:\Users\marce\source\repos\Todolist\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\marce\source\repos\Todolist\Data\obj\Debug\Data.Migrations.init.resources
+C:\Users\marce\source\repos\Todolist\Data\obj\Debug\Data.csproj.GenerateResource.cache
+C:\Users\marce\source\repos\Todolist\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\Todolist\Data\bin\Debug\Data.dll.config
+C:\Users\marce\source\repos\Todolist\Data\bin\Debug\Data.dll
+C:\Users\marce\source\repos\Todolist\Data\bin\Debug\Data.pdb
+C:\Users\marce\source\repos\Todolist\Data\bin\Debug\Domain.dll
+C:\Users\marce\source\repos\Todolist\Data\bin\Debug\EntityFramework.dll
+C:\Users\marce\source\repos\Todolist\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marce\source\repos\Todolist\Data\bin\Debug\Domain.pdb
+C:\Users\marce\source\repos\Todolist\Data\bin\Debug\EntityFramework.xml
+C:\Users\marce\source\repos\Todolist\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marce\source\repos\Todolist\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\marce\source\repos\Todolist\Data\obj\Debug\Data.dll
+C:\Users\marce\source\repos\Todolist\Data\obj\Debug\Data.pdb

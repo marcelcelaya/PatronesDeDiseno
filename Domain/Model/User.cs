@@ -17,5 +17,6 @@ namespace Domain.Model
         public string UserName { get; set; }
         public List<Project> Projects { get; set; }
 
+
     }
 }

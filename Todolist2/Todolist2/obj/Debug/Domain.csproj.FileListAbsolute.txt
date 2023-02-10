@@ -1,0 +1,6 @@
+C:\Users\marce\source\repos\Todolist2\Todolist2\bin\Debug\Todolist2.dll
+C:\Users\marce\source\repos\Todolist2\Todolist2\bin\Debug\Todolist2.pdb
+C:\Users\marce\source\repos\Todolist2\Todolist2\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\Users\marce\source\repos\Todolist2\Todolist2\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\Todolist2\Todolist2\obj\Debug\Todolist2.dll
+C:\Users\marce\source\repos\Todolist2\Todolist2\obj\Debug\Todolist2.pdb
