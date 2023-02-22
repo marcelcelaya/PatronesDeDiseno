@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Model;
 
 namespace Data.Contracts
 {
-    internal interface IProjectRepository
+    public interface IProjectRepository : IGenericRepository<Project>
     {
+        bool RelateTask(Domain.Model.Task newTask);
     }
 }

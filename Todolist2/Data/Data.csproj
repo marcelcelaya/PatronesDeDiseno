@@ -68,6 +68,12 @@
     <Folder Include="Helpers\" />
     <Folder Include="Implementation\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Todolist2\Domain.csproj">
+      <Project>{4A91DC9B-8F1E-45F7-A493-E0C87DC9DD76}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
