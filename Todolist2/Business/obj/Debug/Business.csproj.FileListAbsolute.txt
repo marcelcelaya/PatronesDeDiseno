@@ -4,3 +4,17 @@ C:\Users\marce\source\repos\Todolist2\Business\obj\Debug\Business.csproj.Assembl
 C:\Users\marce\source\repos\Todolist2\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
 C:\Users\marce\source\repos\Todolist2\Business\obj\Debug\Business.dll
 C:\Users\marce\source\repos\Todolist2\Business\obj\Debug\Business.pdb
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\Business.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\Business.pdb
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\Data.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\Todolist2.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\EntityFramework.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\Data.pdb
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\Data.dll.config
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\Todolist2.pdb
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\EntityFramework.xml
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\obj\Debug\Business.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\obj\Debug\Business.pdb

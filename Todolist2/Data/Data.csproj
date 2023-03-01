@@ -51,11 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configuration.cs" />
     <Compile Include="Contracts\IGenericRepository.cs" />
     <Compile Include="Contracts\IProjectRepository.cs" />
     <Compile Include="Contracts\ITaskRepository.cs" />
     <Compile Include="Contracts\IUserRepository.cs" />
+    <Compile Include="Contracts\IUserRoleRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TodoAppInitializer.cs" />
     <Compile Include="TodoDBContext.cs" />

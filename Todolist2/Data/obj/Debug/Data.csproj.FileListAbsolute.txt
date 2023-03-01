@@ -1,2 +1,16 @@
 C:\Users\marce\source\repos\Todolist2\Data\obj\Debug\Data.csproj.AssemblyReference.cache
 C:\Users\marce\source\repos\Todolist2\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\bin\Debug\Data.dll.config
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\bin\Debug\Data.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\bin\Debug\Data.pdb
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\bin\Debug\EntityFramework.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\bin\Debug\Todolist2.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\bin\Debug\Todolist2.pdb
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\bin\Debug\EntityFramework.xml
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\obj\Debug\Data.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Data\obj\Debug\Data.pdb

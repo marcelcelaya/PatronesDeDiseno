@@ -41,7 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IProjectService.cs" />
+    <Compile Include="Contracts\IRoleService.cs" />
+    <Compile Include="Contracts\ITaskRepository.cs" />
+    <Compile Include="Contracts\IUserRoleService.cs" />
+    <Compile Include="Contracts\IUserService.cs" />
+    <Compile Include="Implementation\UserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{1DBA4EE1-B6F4-4140-B237-60ED18D37500}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Todolist2\Domain.csproj">
+      <Project>{4a91dc9b-8f1e-45f7-a493-e0c87dc9dd76}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
