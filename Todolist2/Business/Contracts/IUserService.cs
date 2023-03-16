@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Business.Contracts
 {
-    public interface IUserService<T> where T : class
+    public interface IUserService
     {
         //Create
         int Add(User user);

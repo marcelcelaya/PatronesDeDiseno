@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Business.Implementation
 {
-    public class UserService : IUserService<UserService>
+    public class UserService : IUserService
     {
         private readonly IUserRepository _userRepo;
         public UserService(IUserRepository userRepo)

@@ -16,6 +16,8 @@ namespace Domain.Model
         public string Password { get; set; }
         public string UserName { get; set; }
         public List<Project> Projects { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
 
 
     }
