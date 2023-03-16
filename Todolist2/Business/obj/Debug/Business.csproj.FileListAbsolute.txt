@@ -29,5 +29,3 @@ C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\Newton
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\System.Web.Http.xml
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\System.Web.Http.WebHost.xml
-C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\Business\bin\Debug\EntityFramework.SqlServer.xml
