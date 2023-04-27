@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Model;
+using Todolist2.Model;
 
 namespace Data
 {
@@ -15,6 +16,9 @@ namespace Data
         public DbSet<Domain.Model.Task> Tasks { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<UserProjects> UserProjects { get; set; }
+
+
 
 
         public TodoDBContext() : base("TodolistDB")

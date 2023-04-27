@@ -17,7 +17,11 @@ namespace Business.Contracts
         bool Update(User user);
         //Delete
         bool Delete(int id);
+        //RelateProjects
+        bool RelateProject(int idUser, int idProject);
 
+        //GetProejcts
+        ICollection<Project> GetProjects(int idUser);
 
     }
 }

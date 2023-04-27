@@ -11,8 +11,12 @@ namespace Domain.Model
     {
         [Key]
         public int Id { get; set; }
-        public String Nombre { get; set; }
-        public String Descripcion { get; set; }
+        public String Name { get; set; }
+        public String Description { get; set; }
         public String Status { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
+        public Project Project { get; set; }
+
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Contracts
 {
-    internal interface ITaskRepository : IGenericRepository<Domain.Model.Task>
-    {
+    public interface ITaskRepository : IGenericRepository<Domain.Model.Task>
+    { 
     }
 }

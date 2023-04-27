@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Todolist2.Model;
 
 namespace Domain.Model
 {
@@ -15,10 +16,9 @@ namespace Domain.Model
         public string Email { get; set; }
         public string Password { get; set; }
         public string UserName { get; set; }
-        public List<Project> Projects { get; set; }
+        public List<UserProjects> UserProjects { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
-
 
     }
 }

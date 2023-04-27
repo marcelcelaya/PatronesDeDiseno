@@ -34,6 +34,12 @@ namespace WebAPI
             container.RegisterWebApiControllers(GlobalConfiguration.Configuration);
             container.Register<IUserService, UserService>();
             container.Register<IUserRepository, UserRepository>();
+            container.Register<IProjectService, ProjectService>();
+            container.Register<IProjectRepository, ProjectRepository>();
+            container.Register<ITaskService, TaskService>();
+            container.Register<ITaskRepository, TaskRepository>();
+            container.Register<IRoleService, RoleService>();
+            container.Register<IRoleRepository, RoleRepository>();
 
             container.Verify();
             //config.DependencyResolver = new SimpleInjectorWebApiDependecyResolver(container);

@@ -70,14 +70,17 @@
   <ItemGroup>
     <Compile Include="Contracts\IGenericRepository.cs" />
     <Compile Include="Contracts\IProjectRepository.cs" />
+    <Compile Include="Contracts\IRoleRepository.cs" />
     <Compile Include="Contracts\ITaskRepository.cs" />
     <Compile Include="Contracts\IUserRepository.cs" />
-    <Compile Include="Contracts\IUserRoleRepository.cs" />
     <Compile Include="Helpers\ConnectionStringHelper.cs" />
+    <Compile Include="Implementation\ProjectRepository.cs" />
+    <Compile Include="Implementation\RoleRepository.cs" />
+    <Compile Include="Implementation\TaskRepository.cs" />
     <Compile Include="Implementation\UserRepository.cs" />
-    <Compile Include="Migrations\202303160623546_init.cs" />
-    <Compile Include="Migrations\202303160623546_init.designer.cs">
-      <DependentUpon>202303160623546_init.cs</DependentUpon>
+    <Compile Include="Migrations\202304270015143_init.cs" />
+    <Compile Include="Migrations\202304270015143_init.designer.cs">
+      <DependentUpon>202304270015143_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,8 +107,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202303160623546_init.resx">
-      <DependentUpon>202303160623546_init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202304270015143_init.resx">
+      <DependentUpon>202304270015143_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

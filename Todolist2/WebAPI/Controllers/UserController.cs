@@ -31,5 +31,50 @@ namespace WebAPI.Controllers
             return Ok(payload);
         }
 
+        [Route("{id}")]
+        [HttpGet]
+        public IHttpActionResult Get([FromUri] int id)
+        {
+            if (id <= 0) return BadRequest();
+            User u = _userService.Get(id);
+            if (u == null) return BadRequest();
+            return Ok(u);
+        }
+
+        [Route("")]
+        [HttpPut]
+        public IHttpActionResult Update([FromBody] User us)
+        {
+            if (us == null) return BadRequest("Request is null");
+            bool success = _userService.Update(us);
+            if (!success) return BadRequest("Unable to Update User");
+            return Ok(us);
+        }
+
+        [Route("{id}")]
+        [HttpDelete]
+        public IHttpActionResult Delete([FromUri] int id)
+        {
+            if (id <= 0) return BadRequest();
+            bool u = _userService.Delete(id);
+            if (u) return BadRequest();
+            return Ok(u);
+        }
+        [Route("projects/{id}")]
+        [HttpGet]
+        public IHttpActionResult GetProjects([FromUri] int id)
+        {
+            if (id <= 0) return BadRequest();
+            List<Project> projectList = _userService.GetProjects(id).ToList();
+            return Ok(projectList);
+        }
+        [Route("{idUser}/projects/{idProject}")]
+        [HttpPost]
+        public IHttpActionResult RelateProject([FromUri] int idUser, [FromUri] int idProject)
+        {
+            if (idUser <= 0) return BadRequest();
+            if(idProject <= 0) return BadRequest();
+            return Ok(_userService.RelateProject(idUser,idProject));
+        }
     }
 }

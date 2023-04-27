@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data.Contracts
 {
-    public interface IUserRoleRepository
+    public interface IRoleRepository : IGenericRepository<Role>
     {
-        bool RelateUserWithRole(string userId, string roleId);
-        bool IsUserInRole(string userId, string roleId);
     }
 }

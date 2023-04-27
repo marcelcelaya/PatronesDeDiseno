@@ -59,9 +59,11 @@
   <ItemGroup>
     <Compile Include="Contracts\IProjectService.cs" />
     <Compile Include="Contracts\IRoleService.cs" />
-    <Compile Include="Contracts\ITaskRepository.cs" />
-    <Compile Include="Contracts\IUserRoleService.cs" />
+    <Compile Include="Contracts\ITaskService.cs" />
     <Compile Include="Contracts\IUserService.cs" />
+    <Compile Include="Implementation\ProjectService.cs" />
+    <Compile Include="Implementation\RoleService.cs" />
+    <Compile Include="Implementation\TaskService.cs" />
     <Compile Include="Implementation\UserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

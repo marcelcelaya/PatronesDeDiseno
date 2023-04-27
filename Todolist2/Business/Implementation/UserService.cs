@@ -43,5 +43,18 @@ namespace Business.Implementation
             if (string.IsNullOrEmpty(user.Password)) return false;
             return _userRepo.Update(user);
         }
+
+        public bool RelateProject(int idUser, int idProject)
+        {
+            if (idUser <= 0) return false;
+            if (idProject <= 0) return false;
+            return _userRepo.RelateProject(idUser, idProject);
+        }
+        public ICollection<Project> GetProjects(int idUser)
+        {
+            if (idUser <= 0) return null;
+            List<Project> projectList = _userRepo.GetProjects(idUser).ToList();
+            return projectList;
+        }
     }
 }

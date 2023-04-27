@@ -5,7 +5,7 @@ namespace Data.Contracts
     public interface IUserRepository : IGenericRepository<User>
     {
         ICollection<Project> GetProjects(int idUser);
-        bool RelateProject(Project project);
+        bool RelateProject(int idUser, int idProject);
 
     }
 }
