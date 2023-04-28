@@ -1,3 +1,5 @@
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\obj\Debug\WebAPI.csproj.AssemblyReference.cache
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\bin\WebAPI.dll.config
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\bin\WebAPI.dll
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\bin\WebAPI.pdb
@@ -95,8 +97,9 @@ C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\bin\System.Net.Htt
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\bin\System.Web.Http.xml
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\bin\System.Web.Http.WebHost.xml
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\obj\Debug\WebAPI.csproj.AssemblyReference.cache
-C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\obj\Debug\WebAPI.dll
 C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\obj\Debug\WebAPI.pdb
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\bin\System.Web.Cors.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\bin\System.Web.Http.Cors.dll
+C:\Users\marce\source\repos\PatronesDeDiseno\Todolist2\WebAPI\bin\System.Web.Http.Cors.xml
