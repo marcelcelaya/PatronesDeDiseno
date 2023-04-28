@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using WebAPI.Model;
 
 namespace WebAPI.Controllers
 {
@@ -76,5 +77,13 @@ namespace WebAPI.Controllers
             if(idProject <= 0) return BadRequest();
             return Ok(_userService.RelateProject(idUser,idProject));
         }
+        [Route("login")]
+        [HttpPost]
+        public IHttpActionResult LoginUser([FromBody] UserDTO user)
+        {   
+            if(user.Email == null) return BadRequest();
+            if(user.Password == null) return BadRequest();
+            return Ok(_userService.Login(user.Email, user.Password));
+        }
     }
-}
+} 

@@ -101,5 +101,16 @@ namespace Data.Implementation
                 return true;
             }
         }
+
+        public User Login(string username, string password)
+        {
+            if(username == null || password == null) return null;
+            using (var ctx = new TodoDBContext())
+            {
+                User currentUser = ctx.Users.Where(u => u.Email== username && u.Password == password).FirstOrDefault();
+                return currentUser;
+            }
+        }
+
     }
 }

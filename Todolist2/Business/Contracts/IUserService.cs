@@ -22,6 +22,7 @@ namespace Business.Contracts
 
         //GetProejcts
         ICollection<Project> GetProjects(int idUser);
+        User Login(string username, string password);
 
     }
 }

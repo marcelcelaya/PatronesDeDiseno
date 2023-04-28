@@ -56,5 +56,11 @@ namespace Business.Implementation
             List<Project> projectList = _userRepo.GetProjects(idUser).ToList();
             return projectList;
         }
+
+        public User Login(string username, string password)
+        {
+            if(username== null || password == null) return null;
+            return _userRepo.Login(username, password);
+        }
     }
 }
